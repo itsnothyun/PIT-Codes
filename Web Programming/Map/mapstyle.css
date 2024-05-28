@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #6b4f2b;
+}
+
+.delivery-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f5f2;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.form-section h3 {
+    color: #333;
+}
+
+.form-section label, .form-section select, .form-section button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#map {
+    flex: 2;
+    height: 400px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #6b4f2b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5a3e24;
+}
+
+#shop-details {
+    margin: 20px 0;
+}
